@@ -7,6 +7,7 @@ outline: 0;
 list-style: none;
 text-decoration: none;
 transition: all 300ms ease-in-out;
+box-sizing: border-box;
 }
 
 header {background-color: #e0d786; 
@@ -96,96 +97,84 @@ border: 4px solid transparent;
     color: #fff;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px 4px white;
+}
+ 
+.column1 {
+  flex: 25%;
+  padding: 20px;
+  color: #fff;
+}
+
+.column1 p {
+  font-size: large;
+  color: #fff;
+}
+
+.column1 img {
+  width: 23rem;
+  margin-bottom: 1rem;
+}
+
+.column2 {
+  flex: 25%;
+  padding: 20px;
+  color: #fff;
+}
+
+.column2 p {
+  font-size: large;
+  color: #fff;
+}
+
+.column2 img {
+  width: 23rem;
+  margin-bottom: 1rem;
+}
+
+.column3 {
+  flex: 25%;
+  padding: 20px;
+  color: #fff
+}
+
+.column3 p {
+  font-size: large;
+  color: #fff;
+}
+
+.column3 img {
+  width: 23rem;
+  margin-bottom: 1rem;
+}
+
+.column4 {
+  flex: 25%;
+  padding: 20px;
+  color: #fff;
+}
+
+.column4 p {
+  font-size: large;
+  color: #fff;
+}
+
+.column4 img {
+  width: 23rem;
+  margin-bottom: 1rem;
+}
+
 .line__decor {
     border: 2px solid #e0d786;
     margin-top: 2rem;
 } 
-
-.grid-container {
-    display: grid;
-    column-gap: 1rem;
-    grid-template-columns: auto auto;
-    background-color: transparent;
-    padding: 10px;
-    width: auto;
-    justify-items: center;
-    margin-left: 2rem;
-}  
-  
-.grid-item img {
-    padding: 0px;
-    width: 30rem;  
-    height: auto;
-    border-radius: 10px;
-} 
-
-.grid-item img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 8px 4px white;
-}
-
-    
-.grid-item2 { 
-    position: relative;
-    text-align: left;
-    color: #fff;
-} 
-
-.grid-item3 img {
-    padding: 0px;
-    width: 30rem;
-    height: auto;  
-    border-radius: 10px;
-} 
-
-.grid-item3 img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 8px 4px white;
-}
-
-.grid-item4 { 
-    position: relative;
-    text-align: left;
-    color: #fff;
-} 
-
-.grid-item5 img {
-    padding: 0px;
-    width: 30rem;
-    height: auto;  
-    border-radius: 10px;
-} 
-
-.grid-item5 img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 8px 4px white;
-} 
-
-
-.grid-item6 { 
-    position: relative;
-    text-align: left;
-    color: #fff;
-}
-
-.grid-item7 img {
-    padding: 0px;
-    width: 30rem;
-    height: auto;  
-    border-radius: 10px;
-} 
-
-.grid-item7 img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 8px 4px white;
-} 
-
-
-.grid-item8 { 
-    position: relative;
-    text-align: left;
-    color: #fff;
-}
  
 .line__decor2 {
     border: 2px solid #e0d786;
@@ -199,256 +188,8 @@ border: 4px solid transparent;
     height: 5rem;
     color: #fff;
 }
-
-/* hp mobile L */
-@media screen and (max-width: 425px) {
-    h1.title {
-      font-size: x-large;
-    }
-
-    header {
-        width: auto;
-        margin-left: auto;
-    }    
-    
-
-    .navbar {
-        width: auto;
-        margin-left: auto;
-    }
-
-    img.center {
-      width: 8rem;
-    }
-
-    .grid-container {
-        display: block;
-        margin-left: auto;
-      }   
-      
-
-    .grid-container img {
-      width: 5rem;
-      margin: auto auto 10px 10px;
-    } 
-    
-
-    .grid-container p {
-        display: block;
-        text-align: center;
-        font-size: large;
-      }
  
-        
-      .grid-container h2 {
-        display: block;
-        text-align: center;
-        font-size: large;
-      } 
-        
-  
-      li a {
-        float: none;
-        width: auto;
-      }
-      
-      .line__decor {
-        width: auto;
-        margin-left: auto;
-      }
 
-      .line__decor2 {
-        width: auto;
-        margin-left: auto;
-      }
-
-        
-      .pala2 {
-        font-size: large;
-        margin-left: auto;
-       }   
-        
-
-      .project__title  {
-        font-size: medium;
-        margin-left: auto;
-      }    
-
-      .box p {
-        font-size: medium;
-        margin-left: auto;
-      }  
-      
-      
-      .pala3 {
-        font-size: large;
-        margin-left: auto;
-      }
-      
-      
-      footer p, a {
-        font-size: small;
-        width: auto;
-        margin-left: auto;
-      }
-  
-     }
-/* end   */
-
-/* hp mobile m */
-@media screen and (max-width: 375px) {
-  h1.title {
-    font-size: x-large;
-  }
-  
-  header {
-    width: auto;
-    margin-left: auto;
-}    
- 
-.navbar {
-    width: auto;
-    margin-left: auto;
-}
-
-.grid-container {
-    display: block;
-    margin-left: -1.5rem;
-  }   
-  
-
-.grid-container img {
-  width: 5rem;
-  margin: auto auto 2rem 2rem;
-} 
-
-
-.grid-container p {
-    display: block;
-    text-align: center;
-    font-size: large;
-  }
-
-    
-  .grid-container h2 {
-    display: block;
-    text-align: center;
-    font-size: large;
-  } 
-    
-
-  li a {
-    float: none;
-    width: auto;
-  }
-  
-  .line__decor {
-    width: auto;
-    margin-left: auto;
-  }
-
-  .line__decor2 {
-    width: auto;
-    margin-left: auto;
-  }
-
-    
-  .pala2 {
-    font-size: large;
-    margin-left: auto;
-   }   
-    
-
-  .project__title  {
-    font-size: larger;
-    margin-left: auto;
-  }    
-
-  .box p {
-    font-size: medium;
-    margin-left: auto;
-  }  
-  
-  
-  .pala3 {
-    font-size: large;
-    margin-left: auto;
-  }   
-
-  footer p, a {
-    font-size: small;
-    width: auto;
-    margin-left: auto;
-  }
-}
-/* end */
- 
-/* end */
-
-/* klo dibuka di tablet */
-@media screen and (max-width: 768px) {
-    .grid-container {
-        display: block;
-      }
-
-    .grid-container img {
-      width: 20rem;
-      margin-left: -4.5rem;
-    }
-
-    .grid-container p {
-        display: block;
-        text-align: center;
-        margin-left: 2rem;
-        font-size: large;
-      }
-
-      .grid-container h2 {
-        display: block;
-        text-align: center;
-        margin-left: 2rem;
-        font-size: larger;
-      }
-    
-      li {
-        float: none;
-        width: 100%;
-      }    
-
-      .pala2 {
-        font-size: large;
-      }    
-
-      .project__title  {
-        font-size: larger;
-      }    
-
-      .box p {
-        font-size: medium;
-
-      }
-      
-      .pala3 {
-        font-size: large;
-      }   
-
-      footer p, a {
-        font-size: small;
-      }
-
-     }
-/* end   */
-
-/* ikut2 aja */
-@media screen and (max-width: 912px) {
-  .grid-container img {
-    width: 20rem;
-  }
-
-  .grid-container p {
-    font-size: medium;
-  }
-} 
 
 footer p {
     text-align: left;
@@ -467,11 +208,258 @@ footer a {
     font-weight: bold;
 }  
  
-    
+/* hp mobile L */
+@media screen and (max-width: 425px) {
+  h1.title {
+    font-size: x-large;
+  }
 
- 
+  header {
+      width: auto;
+      margin-left: auto;
+  }    
+  
+
+  .navbar {
+      width: auto;
+      margin-left: auto;
+  }
+
+  img.center {
+    width: 8rem;
+  }
+
+  li a {
+      float: none;
+      width: 100%;
+    }
     
+    .line__decor {
+      width: auto;
+      margin-left: auto;
+    }
+
+    .line__decor2 {
+      width: auto;
+      margin-left: auto;
+    }
+
+      
+    .pala2 {
+      font-size: large;
+      margin-left: auto;
+     }   
+      
+
+    .project__title  {
+      font-size: medium;
+      margin-left: auto;
+    }    
+
+    .box p {
+      font-size: medium;
+      margin-left: auto;
+    }  
+    
+    .row {
+      margin-left: -4.3rem;
+      width: 100%;
+    }
+    
+    .row img {
+      width: 19rem;
+    }
+      
+    .pala3 {
+      font-size: large;
+      margin-left: auto;
+    }
+    
+    
+    footer p, a {
+      font-size: small;
+      width: auto;
+      margin-left: auto;
+    }
+
+   }
+/* end   */    
+
+/* hp mobile M */
+@media screen and (max-width: 375px) {
+  h1.title {
+    font-size: x-large;
+  }
+
+  header {
+      width: auto;
+      margin-left: auto;
+  }    
+  
+
+  .navbar {
+      width: auto;
+      margin-left: auto;
+  }
+
+  img.center {
+    width: 8rem;
+  }
+
+  li a {
+      float: none;
+      width: 100%;
+    }
+    
+    .line__decor {
+      width: auto;
+      margin-left: auto;
+    }
+
+    .line__decor2 {
+      width: auto;
+      margin-left: auto;
+    }
+
+      
+    .pala2 {
+      font-size: large;
+      margin-left: auto;
+     }   
+      
+
+    .project__title  {
+      font-size: medium;
+      margin-left: auto;
+    }    
+
+    .box p {
+      font-size: medium;
+      margin-left: auto;
+    }  
+    
+    .row {
+      margin-left: -5.5rem;
+      width: 100%;
+    }
+    
+    .row img {
+      width: 18rem;
+    }
+      
+    .pala3 {
+      font-size: large;
+      margin-left: auto;
+    }
+    
+    
+    footer p, a {
+      font-size: small;
+      width: auto;
+      margin-left: auto;
+    }
+
+   }
+/* end   */  
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  h1.title {
+    font-size: xx-large;
+  }
+
+  header {
+      width: auto;
+      margin-left: auto;
+  }    
+  
+
+  .navbar {
+      width: auto;
+      margin-left: auto;
+  }
+
+  img.center {
+    width: 8rem;
+  }
+
+  li a {
+      float: none;
+      width: 100%;
+    }
+    
+    .line__decor {
+      width: auto;
+      margin-left: auto;
+    }
+
+    .line__decor2 {
+      width: auto;
+      margin-left: auto;
+    }
+
+      
+    .pala2 {
+      font-size: large;
+      margin-left: auto;
+     }   
+      
+
+    .project__title  {
+      font-size: medium;
+      margin-left: auto;
+    }    
+
+    .box p {
+      font-size: medium;
+      margin-left: auto;
+    }  
+    
+    .row {
+      margin-left: auto;
+      width: 100%;
+    }
+    
+    .row img {
+      width: 25rem;
+    }
+      
+    .pala3 {
+      font-size: large;
+      margin-left: auto;
+    }
+    
+    
+    footer p, a {
+      font-size: small;
+      width: auto;
+      margin-left: auto;
+    }
+
+   }
+/* end   */    
+
+/* Laptop 1440 */
+@media screen and (min-width: 1024px) {
+  h1.title {
+    font-size: xx-large;
+  }
+  
+   }
+/* end  */
  
+/* TV */
+@media screen and (min-width: 2560px) {
+  h1.title {
+    font-size: xx-large;
+  }
+
+  .box p {
+    margin-left: 30.9rem;
+  }
+  
+   }
+/* end  */
     
     
  
@@ -485,3 +473,10 @@ footer a {
 
 
 
+  
+  
+    
+     
+      
+
+    
