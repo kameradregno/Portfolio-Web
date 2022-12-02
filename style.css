@@ -8,6 +8,7 @@ list-style: none;
 text-decoration: none;
 transition: all 300ms ease-in-out;
 box-sizing: border-box;
+scroll-behavior: smooth;
 }
 
 header {background-color: #e0d786; 
