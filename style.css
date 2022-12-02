@@ -1,7 +1,7 @@
 *{margin: 0;
 padding-bottom: 100;
 background-color: #332818;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lbucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 border: 0;
 outline: 0;
 list-style: none;
@@ -113,6 +113,7 @@ border: 4px solid transparent;
   flex: 25%;
   padding: 20px;
   color: #fff;
+  margin-top: 1rem;
 }
 
 .column1 p {
@@ -164,6 +165,7 @@ border: 4px solid transparent;
   flex: 25%;
   padding: 20px;
   color: #fff;
+  margin-bottom: 1rem;
 }
 
 .column4 p {
