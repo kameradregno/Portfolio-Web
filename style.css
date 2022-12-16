@@ -1,0 +1,491 @@
+*{margin: 0;
+padding-bottom: 100;
+background-color: #332818;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border: 0;
+outline: 0;
+list-style: none;
+text-decoration: none;
+transition: all 300ms ease-in-out;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header {background-color: #e0d786; 
+width: 100%;
+padding-bottom: 7px;
+padding-top: 0px;
+padding-right: 0px;
+padding-left: 0px;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+    
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c7b54f;
+}  
+  
+li {  
+    float: left;
+    position: sticky;
+    font-weight: bolder;
+}     
+  
+  
+li a {  
+    display: block;
+    background-color: #c7b54f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration-color: #fff;
+}  
+  
+li a:hover {
+    background-color: #332818;
+    color: #fff;
+}        
+  
+h1.title {text-align: center;
+color: rgb(0, 0, 0);
+background-color: rgb(224, 215, 134);
+border: 200px;
+padding-top: 80px;
+padding-bottom: 50px;
+font-size: xx-large;
+font-style: oblique;}
+
+img.center { display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 120px; 
+border-radius: 10px;
+}
+
+.box {
+    color: #fff;
+}
+
+img.center:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 8px 4px white;
+}
+
+div{margin: 100px;
+padding: 5px;
+text-align: center;
+width: fit-content;
+font-size: larger;
+border: 4px solid transparent;
+}
+
+.pala2 {
+    text-align: center;
+    border: 4px solid transparent;
+    color: #fff;
+}
+
+.project__title {
+    text-align: center;
+    margin-top: 10rem;
+    color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px 4px white;
+}
+ 
+.column1 {
+  flex: 25%;
+  padding: 20px;
+  color: #fff;
+}
+
+.column1 p {
+  font-size: large;
+  color: #fff;
+}
+
+.column1 img {
+  width: 23rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.column2 {
+  flex: 25%;
+  padding: 20px;
+  color: #fff;
+}
+
+.column2 p {
+  font-size: large;
+  color: #fff;
+}
+
+.column2 img {
+  width: 23rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.column3 {
+  flex: 25%;
+  padding: 20px;
+  color: #fff
+}
+
+.column3 p {
+  font-size: large;
+  color: #fff;
+}
+
+.column3 img {
+  width: 23rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.column4 {
+  flex: 25%;
+  padding: 20px;
+  color: #fff;
+}
+
+.column4 p {
+  font-size: large;
+  color: #fff;
+}
+
+.column4 img {
+  width: 23rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.line__decor {
+    border: 2px solid #e0d786;
+    margin-top: 2rem;
+} 
+ 
+.line__decor2 {
+    border: 2px solid #e0d786;
+    margin-top: 1rem;
+    margin-bottom: 20rem;
+} 
+
+.pala3 {
+    text-align: center;
+    border: 4px solid transparent;
+    height: 5rem;
+    color: #fff;
+}    
+
+ 
+
+
+footer p {
+    text-align: left;
+    background-color: #c7b54f;
+    display: grid;
+    padding: 15px;
+    justify-content: center;
+}     
+    
+    
+
+footer a {
+    text-align: left;
+    background-color: #c7b54f;
+    display: grid;
+    padding: 15px;
+    font-weight: bold;
+    justify-content: center;
+}  
+ 
+/* hp mobile L */
+@media screen and (max-width: 675px) {
+  h1.title {
+    font-size: x-large;
+  }
+
+  header {
+      width: auto;
+      margin-left: auto;
+  }    
+  
+
+  .navbar {
+      width: auto;
+      margin-left: auto;
+  }
+
+  img.center {
+    width: 8rem;
+  }
+
+  li a {
+      float: none;
+      width: 100%;
+    }
+    
+    .line__decor {
+      width: auto;
+      margin-left: auto;
+    }
+
+    .line__decor2 {
+      width: auto;
+      margin-left: auto;
+    }
+
+      
+    .pala2 {
+      font-size: large;
+      margin-left: auto;
+     }   
+      
+
+    .project__title  {
+      font-size: medium;
+      margin-left: auto;
+    }    
+
+    .box p {
+      font-size: medium;
+      margin-left: auto;
+    }  
+    
+    .row {
+      margin-left: -4.3rem;
+      width: 100%;
+    }
+    
+    .row img {
+      width: 19rem;
+    }
+      
+    .pala3 {
+      font-size: large;
+      margin-left: auto;
+    }
+    
+    
+    footer p, a {
+      font-size: small;
+      width: auto;
+      margin-left: auto;
+    }
+
+   }
+/* end   */    
+
+/* hp mobile M */
+@media screen and (max-width: 387px) {
+  h1.title {
+    font-size: x-large;
+  }
+
+  header {
+      width: auto;
+      margin-left: auto;
+  }    
+  
+
+  .navbar {
+      width: auto;
+      margin-left: auto;
+  }
+
+  img.center {
+    width: 8rem;
+  }
+
+  li a {
+      float: none;
+      width: 100%;
+    }
+    
+    .line__decor {
+      width: auto;
+      margin-left: auto;
+    }
+
+    .line__decor2 {
+      width: auto;
+      margin-left: auto;
+    }
+
+      
+    .pala2 {
+      font-size: large;
+      margin-left: auto;
+     }   
+      
+
+    .project__title  {
+      font-size: medium;
+      margin-left: auto;
+    }    
+
+    .box p {
+      font-size: medium;
+      margin-left: auto;
+    }  
+    
+    .row {
+      margin-left: -5.5rem;
+      width: 100%;
+    }
+    
+    .row img {
+      width: 18rem;
+    }
+      
+    .pala3 {
+      font-size: large;
+      margin-left: auto;
+    }
+    
+    
+    footer p, a {
+      font-size: small;
+      width: auto;
+      margin-left: auto;
+    }
+
+   }
+/* end   */  
+
+/* Tablet */
+@media screen and (min-width: 528px) {
+  h1.title {
+    font-size: xx-large;
+  }
+
+  header {
+      width: auto;
+      margin-left: auto;
+  }    
+  
+
+  .navbar {
+      width: auto;
+      margin-left: auto;
+  }
+
+  img.center {
+    width: 8rem;
+  }
+
+  li a {
+      float: none;
+      width: 100%;
+    }
+    
+    .line__decor {
+      width: auto;
+      margin-left: auto;
+    }
+
+    .line__decor2 {
+      width: auto;
+      margin-left: auto;
+    }
+
+      
+    .pala2 {
+      font-size: large;
+      margin-left: auto;
+     }   
+      
+
+    .project__title  {
+      font-size: medium;
+      margin-left: auto;
+    }    
+
+    .box p {
+      font-size: medium;
+      margin-left: auto;
+    }  
+    
+    .row {
+      margin-left: auto;
+      width: 100%;
+    }
+    
+    .row img {
+      width: 25rem;
+    }
+      
+    .pala3 {
+      font-size: large;
+      margin-left: auto;
+    }
+    
+    
+    footer p, a {
+      font-size: small;
+      width: auto;
+      margin-left: auto;
+    }
+
+   }
+/* end   */    
+
+/* Laptop 1440 */
+@media screen and (min-width: 992px) {
+  h1.title {
+    font-size: xx-large;
+  }
+  
+   }
+/* end  */
+ 
+/* TV */
+@media screen and (min-width: 2560px) {
+  h1.title {
+    font-size: xx-large;
+  }
+
+  .box p {
+    margin-left: 32rem;
+  }
+  
+   }
+/* end  */
+    
+    
+ 
+
+      
+
+
+
+   
+
+
+
+
+  
+  
+    
+     
+      
+
+    
